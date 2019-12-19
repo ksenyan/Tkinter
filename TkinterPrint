@@ -37,7 +37,7 @@ class Window(Frame):
     def client_exit(self):
         exit()
     def client_print(self):
-        m = Message(text="You typed something!", font=("Helvetica", 25))
+        m = Message(text="You typed something!", font=("Helvetica", 20))
         m.pack()
         
 root = Tk()
